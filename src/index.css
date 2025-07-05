@@ -1,68 +1,202 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bg{
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height:100vh;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+body{
+  margin: 0px;
 }
-a:hover {
-  color: #535bf2;
+.bg1{
+  position: absolute;
+  top: 30px;
 }
+.bg11{
+  position: absolute;
+  bottom: 80px;
+}
+.bg111{
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+}
+.bg2{
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 40px;
+  padding: 40px;
+  box-shadow: 1px 1px 10px black;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  width:30%;
 
-body {
-  margin: 0;
+}
+.b1{
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1{
+  width: 200px;
+  height: 25px;
+  background-color: blue;
+}
+.s{
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height:100vh
+}
+body{
+  margin: 0px;
+}
+.s1{
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  height:70%;
+  width:35%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  border-radius: 40px;
+  box-shadow: 1px 1px 10px black;
+}
+.c1{
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+}
+.ss{
+  position: absolute;
+  top: 10px;
+  
+}
+#b11{
+  width: 200px;
+  height: 25px;
+  background-color: blue;
+}
+.H1{
+  position: absolute;
+  bottom: 30px;
+  justify-content: space-around;
+ 
+}
+.home-container {
+  position: relative;
+  display: flex;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+
+.home-header {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  border-radius: 10px;
+  width: 100vw;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  }
+  .home-header h1{
+    position: absolute;
+    top: 10px; 
+}
+.home-header p{
+  position:absolute ;
+  top: 60px;
+}
+.home-link1{
+  position: absolute;
+  top: 110px;
+  right: 670px;
+  text-decoration: none;
+}
+.home-link2{
+  position: absolute;
+  top: 110px;
+  right: 600px;
+  text-decoration: none;
+}
+.home-footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+.img1{
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  top: 0px;
+  left: 50px;
+}
+.img2{
+  position: absolute;
+  display: flex;
+  height: 151px;
+  width: 150px;
+  top: 0px;
+  right: 50px;
+  background: transparent;
+}
+.imgb1{
+  
+  position: absolute;
+  display: flex;
+  top: 151px;
+  height: 80vh;
+  width: 100vw;
+}
+#imgb2{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+}
+.p1{
+  position: absolute;
+  display: flex;
+  color: #333333;
+  left: 50px;
+  top: 150px;
+  font-size: xx-large;
+}
+.p2{
+  position: absolute;
+  display: flex;
+  color: #333333;
+  right: 0px;
+  top: 150px;
+  font-size: 0.8cm;
+  text-align: center;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.p3{
+  position: absolute;
+  display: flex;
+  color: lavender;
+  right: 60px;
+  top: 680px;
+}
+.p4{
+  position: absolute;
+  /* display: flex; */
+  color: lavenderblush;
+  left: 1060px;
+  top: 710px;
+  /* flex-direction: column; */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
