@@ -15,15 +15,14 @@ export default function Login(){
         </div>
         <div className="bg111">
             <label htmlFor="">You have no account Create a new account</label><br />
-            <Link to="/Signup">Signup</Link>
+            <Link to="/Signup" class="text-decoration-none">Signup</Link>
         </div>
        
         <div className="bg2">
                 <center>
-            <h2>Login your Account</h2>
+            <h3>Login your Account</h3>
             <form>
-               
-            <table>
+                <table>
                 <tr>
                    <td>Email:</td>
                    <td><input type="email" placeholder="enter your email"/></td>
