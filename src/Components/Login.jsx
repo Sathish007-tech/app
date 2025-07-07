@@ -39,7 +39,7 @@ export default function Login(){
             
             </center>
             <div className="b1">
-                <button className="button1">Login</button>
+                <button className="button1"><Link to="/" class="text-decoration-none">Login</Link></button>
                 
             </div>
              </div>

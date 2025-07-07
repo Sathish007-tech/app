@@ -27,7 +27,7 @@ export default function Signup(){
             <label htmlFor="">I agree to all Term&privacy policy and Fees.</label>
             </div>
             <div className="bb11">
-                <button id="b11">SignUp </button>
+                <button id="b11"><Link to="/Login">SignUp</Link> </button>
             </div>
         </div>
         <div className="H1">
