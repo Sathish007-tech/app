@@ -159,9 +159,12 @@ body{
   text-decoration: none;
 }
 .home-footer {
+  position: absolute;
   margin-top: 2rem;
   font-size: 0.9rem;
   color: #777;
+  top: 101%;
+  left: 40%;
 }
 .img1{
   position: absolute;

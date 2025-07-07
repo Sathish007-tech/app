@@ -100,9 +100,9 @@ export default function Home() {
           <li> <Link to="/"class="text-decoration-none text-dark">Evening Dresses</Link> </li>
         </ul>
        </div> */}
-      {/* <footer className="home-footer">
-        <p>&copy; 2025 ShopHub. All rights reserved.</p>
-      </footer> */}
+      <footer className="home-footer">
+        <p>&copy; 2025 Fashion-Hub. All rights reserved.</p>
+      </footer>
         <div className="img8">
           <img src={sam1} alt="" />
           <img src={sam1A} alt="" className="img11A"/>
