@@ -9,7 +9,7 @@
 
 **Fashion-Hub** is a premium, highly responsive e-commerce web application tailored for modern fashion enthusiasts. Built on top of **React 19** and compiled with the speed of **Vite 7**, the platform provides an interactive shopping experience featuring elegant transitions via **Framer Motion**, sleek layouts designed with **Bootstrap 5.3**, and client-side navigation with **React Router v7**.
 
-🔗 **Live URL:**https://fashion-hub.onslate.in
+🔗 **Live URL:**  https://fashion-hub.onslate.in
 ---
 
 ## ✨ Features
